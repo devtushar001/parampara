@@ -1,18 +1,18 @@
 import { gardenSlider } from '../../assets/assets';
 import './Slider.css';
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
 const Slider = () => {
     return (
         <>
             <div className="slider">
                 <div className="left">
-                    <div className="arrow-left">
-
+                    <div className="arrows">
+                        <FaChevronLeft className='left-arrow' />
+                        <FaChevronRight className='right-arrow' />
                     </div>
                     <img src={gardenSlider[0].image} alt="" />
                     <p>{gardenSlider[0].content}</p>
-                    <div className="arrow-right">
-
-                    </div>
                 </div>
                 <div className="right">
                     <div className="top">

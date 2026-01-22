@@ -5,6 +5,7 @@
     width: 100vw;
     background: #fffcfc83;
     backdrop-filter: blur(15px);
+    z-index: 1;
 }
 
 .margin {

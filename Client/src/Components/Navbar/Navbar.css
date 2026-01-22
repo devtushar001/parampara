@@ -3,6 +3,12 @@
     grid-template-columns: 1fr;
     position: fixed;
     width: 100vw;
+    background: #fffcfc83;
+    backdrop-filter: blur(15px);
+}
+
+.margin {
+    height: 140px;
 }
 
 .navbar .arrow-icon {
@@ -103,6 +109,10 @@
 
     }
 
+    .margin {
+        height: 160px;
+    }
+
     .navbar .menu-list .book-button {
         align-content: center;
     }
@@ -113,9 +123,12 @@
         width: 100vw;
         display: flex;
         height: 34px;
-        /* overflow: hidden; */
         align-items: center;
         justify-content: center;
+    }
+
+    .margin {
+        height: 185px;
     }
 
     .navbar .menu-list.active {
@@ -125,6 +138,7 @@
     .navbar .menu-list.active .menu {
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
     }
 
     .navbar .arrow-icon img {
@@ -134,8 +148,6 @@
     .navbar .menu-list .menu {
         display: none;
     }
-
-
 
     .navbar .menu-list .book-button {
         grid-template-columns: 80px 80px 80px 80px;

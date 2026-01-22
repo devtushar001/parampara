@@ -1,0 +1,27 @@
+.slider {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 350px;
+}
+
+.slider .left {
+    background: #ffc061;
+}
+
+.slider .right {
+    background: #eeddc3;
+}
+
+@media (max-width: 900) {
+
+    /* .slider {
+
+    } */
+
+}
+
+@media (max-width: 550px) {
+    .slider {
+        grid-template-columns: 1fr;
+    }
+}

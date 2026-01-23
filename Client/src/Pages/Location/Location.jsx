@@ -4,45 +4,47 @@ import './Location.css'
 const Location = () => {
     return (
         <>
-            <section class="location-page">
-                <div class="location-container">
+            <section className="location-section">
+                <div className="location-container">
 
-                    <div class="location-info">
+                    {/* Left Content */}
+                    <div className="location-content">
                         <h2>Find Us Easily</h2>
-                        <p class="tagline">
-                            Visit Parampara Marriage Garden and experience elegance,
-                            tradition, and celebration at the perfect location.
+                        <p>
+                            Parampara Marriage Garden is located in a peaceful and elegant
+                            environment, perfect for weddings and grand celebrations.
                         </p>
 
-                        <div class="address-box">
-                            <h3>📍 Our Address</h3>
+                        <div className="address-box">
+                            <h4>📍 Our Address</h4>
                             <p>
-                                Parampara Marriage Garden<br />
-                                Ratibad Road, Near Bhopal<br />
+                                Parampara Marriage Garden <br />
+                                Ratibad Road, Bhopal <br />
                                 Madhya Pradesh, India
                             </p>
                         </div>
 
                         <a
-                            href="https://www.google.com/maps/search/?api=1&query=Parampara+Marriage+Garden+Ratibad+Bhopal"
+                            href="https://www.google.com/maps"
                             target="_blank"
-                            class="map-btn"
+                            rel="noreferrer"
+                            className="map-btn"
                         >
                             Open in Google Maps
                         </a>
                     </div>
 
-                    <div class="map-box">
+                    {/* Right Map */}
+                    <div className="map-container">
                         <iframe
-                            src="https://www.google.com/maps?q=Parampara%20Marriage%20Garden%20Ratibad%20Bhopal&output=embed"
+                            title="Parampara Location"
+                            src="https://www.google.com/maps?q=Ratibad%20Bhopal&output=embed"
                             loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
-
                 </div>
             </section>
-
         </>
     )
 }

@@ -4,3 +4,13 @@
     list-style: none;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  transition-duration: 300ms;
+}
+
+.nav-link:hover {
+  color: #00242b;
+}

@@ -10,9 +10,10 @@ const Footer = () => {
                     <div class="footer-col">
                         <h4>Gallery</h4>
                         <ul>
-                            <li><a href="#">Community</a></li>
-                            <li><a href="#">Trending</a></li>
-                            <li><a href="#">Picks</a></li>
+                            <li><a href="#">Garden</a></li>
+                            <li><a href="#">D-Cafe</a></li>
+                            <li><a href="#">Lawn's</a></li>
+                            <li><a href="#">Rooms</a></li>
                         </ul>
                     </div>
 

@@ -6,6 +6,7 @@ import CTA from "../../Components/CTA/CTA";
 import './Home.css';
 import Gallery from "../../Components/Gallery/Gallery";
 import Testimonial from "../../Components/Testimonial/Testimonial";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
                 <CTA />
                 <Gallery/>
                 <Testimonial/>
+                {/* <Footer/> */}
             </div>
         </>
     )

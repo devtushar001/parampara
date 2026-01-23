@@ -1,7 +1,11 @@
 import ChooseUs from "../../Components/ChooseUs/ChooseUs";
+import EventHost from "../../Components/EventHost/EventHost";
 import Slider from "../../Components/Slider/Slider"
 import VenueSpaces from "../../Components/VenueSpaces/VenueSpaces";
+import CTA from "../../Components/CTA/CTA";
 import './Home.css';
+import Gallery from "../../Components/Gallery/Gallery";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const Home = () => {
     return (
@@ -10,6 +14,10 @@ const Home = () => {
                 <Slider />
                 <ChooseUs />
                 <VenueSpaces />
+                <EventHost />
+                <CTA />
+                <Gallery/>
+                <Testimonial/>
             </div>
         </>
     )

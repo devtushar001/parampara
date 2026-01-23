@@ -5,7 +5,7 @@ const VenueSpaces = () => {
     return (
         <>
             <section class="venue-spaces">
-                <h2>Venue Spaces</h2>
+                <h2>VENUE SPACES</h2>
                 <p class="subtitle">
                     Beautifully designed spaces for every wedding ritual and celebration
                 </p>
@@ -20,6 +20,7 @@ const VenueSpaces = () => {
                                 and large gatherings under the open sky.
                             </p>
                         </div>
+                        <button>View More...</button>
                     </div>
 
                     <div class="space-card">
@@ -32,6 +33,7 @@ const VenueSpaces = () => {
                                 pheras, and main wedding ceremonies.
                             </p>
                         </div>
+                        <button>View More...</button>
                     </div>
 
                     <div class="space-card">
@@ -44,6 +46,7 @@ const VenueSpaces = () => {
                                 service for all guests.
                             </p>
                         </div>
+                        <button>View More...</button>
                     </div>
 
                     <div class="space-card">
@@ -56,6 +59,7 @@ const VenueSpaces = () => {
                                 providing convenience and peace of mind.
                             </p>
                         </div>
+                        <button>View More...</button>
                     </div>
                 </div>
             </section>

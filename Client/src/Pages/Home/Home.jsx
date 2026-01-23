@@ -1,4 +1,6 @@
+import ChooseUs from "../../Components/ChooseUs/ChooseUs";
 import Slider from "../../Components/Slider/Slider"
+import VenueSpaces from "../../Components/VenueSpaces/VenueSpaces";
 import './Home.css';
 
 const Home = () => {
@@ -6,6 +8,8 @@ const Home = () => {
         <>
             <div className="home">
                 <Slider />
+                <ChooseUs />
+                <VenueSpaces />
             </div>
         </>
     )

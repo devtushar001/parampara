@@ -52,8 +52,8 @@ const Footer = () => {
                 </div>
 
                 <div class="footer-bottom">
-                    <p>Privacy Policy · Terms and Conditions</p>
-                    <p>Dribbble · Behance · Instagram</p>
+                    <p>Copyright @ paramapara </p>
+                    <p>Parampara · Garden · Resort</p>
                 </div>
             </footer>
 

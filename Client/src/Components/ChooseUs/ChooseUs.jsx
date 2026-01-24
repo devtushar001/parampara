@@ -3,7 +3,7 @@ const ChooseUs = () => {
     return (
         <>
             <section class="why-choose-us">
-                <h2>Why Choose Parampara Marriage Garden</h2>
+                <h2>Why Choose Parampara Garden Resort</h2>
                 <p class="subtitle">
                     Where traditions meet elegance to create unforgettable celebrations
                 </p>

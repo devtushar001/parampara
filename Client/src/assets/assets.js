@@ -21,3 +21,6 @@ export const gardenSlider = [
     }
 ];
 
+// export const venueImages = {
+//     image: 
+// }
